@@ -1,0 +1,1 @@
+{"version":3,"file":"register.js","sourceRoot":"","sources":["../../../../src/modules/auth/handlers/register.ts"],"names":[],"mappings":";;AAEA,oEAAoE;AACpE,oDAAoD;AAEpD,kBAAe,CAAC,GAAY,EAAE,GAAa,EAAE,EAAE;IAC9C,oDAAoD;IAEnD,IAAI;QACH,yCAAyC;QAExC,GAAG,CAAC,UAAU,CAAC,GAAG,CAAC,CAAA;KACpB;IAAC,OAAO,CAAC,EAAE;QACV,GAAG,CAAC,UAAU,CAAC,GAAG,CAAC,CAAA;KACpB;AACH,CAAC,CAAA"}

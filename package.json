@@ -1,0 +1,54 @@
+{
+  "name": "storerest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && node dist/index",
+    "deploy:api": "node dist/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farazaftab/storeRest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farazaftab/storeRest/issues"
+  },
+  "homepage": "https://github.com/farazaftab/storeRest#readme",
+  "dependencies": {
+    "ts-jest": "^22.4.2",
+    "ts-node": "^6.0.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.2",
+    "helmet": "^3.8.2",
+    "jsonwebtoken": "^8.1.0",
+    "mongoose": "^5.0.16",
+    "ms": "^2.0.0",
+    "winston": "^2.4.0",
+    "@types/bcryptjs": "^2.4.1",
+    "@types/cors": "^2.8.3",
+    "@types/dotenv": "^4.0.3",
+    "@types/express": "^4.11.1",
+    "@types/helmet": "^0.0.37",
+    "@types/jest": "^22.2.2",
+    "@types/jsonwebtoken": "^7.2.6",
+    "@types/mongoose": "^5.0.10",
+    "@types/ms": "^0.7.30",
+    "@types/supertest": "^2.0.4",
+    "@types/winston": "^2.3.9",
+    "jest": "^22.4.3",
+    "nodemon": "^1.17.4",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": "8.11.3"
+  }
+}
