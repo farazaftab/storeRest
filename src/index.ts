@@ -1,7 +1,7 @@
 import {load as dotenv} from 'dotenv'
 
 import createApp from './app/createApp'
-import logger from './app/logger'
+
 
 dotenv()
 
@@ -11,10 +11,10 @@ const start = async () => {
     const port = process.env.PORT || 3000
 
     app.listen(port, () => {
-      logger.info(`App running on port ${port}...`)
+      console.info(`App running on port ${port}...`)
     })
   } catch (e) {
-    logger.error(e.toString())
+    console.info(e.toString())
 
     process.exit(1)
   }

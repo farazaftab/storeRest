@@ -13,18 +13,17 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const dotenv_1 = require("dotenv");
 const createApp_1 = __importDefault(require("./app/createApp"));
-const logger_1 = __importDefault(require("./app/logger"));
 dotenv_1.load();
 const start = () => __awaiter(this, void 0, void 0, function* () {
     try {
         const app = yield createApp_1.default();
         const port = process.env.PORT || 3000;
         app.listen(port, () => {
-            logger_1.default.info(`App running on port ${port}...`);
+            console.info(`App running on port ${port}...`);
         });
     }
     catch (e) {
-        logger_1.default.error(e.toString());
+        console.info(e.toString());
         process.exit(1);
     }
 });

@@ -5,7 +5,6 @@ import bodyParser from 'body-parser'
 
 import routes from '../routes'
 
-import {httpLoggerMiddleware as httpLogger} from './logger'
 
 export default (): any => {
   const app = express()
@@ -13,7 +12,7 @@ export default (): any => {
   app.use(helmet())
   app.use(cors())
   app.use(bodyParser.json())
-  app.use(httpLogger)
+
 
   //await connectDb()
 
